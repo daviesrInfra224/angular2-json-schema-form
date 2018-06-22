@@ -1,11 +1,11 @@
-import { __spread, __values, __extends, __assign, __read } from 'tslib';
+import { __read, __values, __spread, __assign, __extends } from 'tslib';
 import { Observable } from 'rxjs-compat/Observable';
 import { fromPromise } from 'rxjs-compat/observable/fromPromise';
 import { toPromise } from 'rxjs-compat/operator/toPromise';
 import { Injectable, Directive, ElementRef, Input, NgZone, ChangeDetectionStrategy, Component, ComponentFactoryResolver, ViewChild, ViewContainerRef, Inject, ChangeDetectorRef, EventEmitter, forwardRef, Output, NgModule } from '@angular/core';
 import { forkJoin } from 'rxjs-compat/observable/forkJoin';
 import { map } from 'rxjs-compat/operator/map';
-import { cloneDeep, isEqual, map as map$1, filter, uniqueId } from 'lodash';
+import { isEqual, cloneDeep, filter, map as map$1, uniqueId } from 'lodash';
 import { FormArray, FormControl, FormGroup, NG_VALUE_ACCESSOR, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Subject } from 'rxjs-compat/Subject';
 import * as Ajv from 'ajv';
